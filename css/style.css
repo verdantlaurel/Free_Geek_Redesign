@@ -285,19 +285,25 @@ li {
   float: right;
 }
 
-.card-side {
-  width: 450px;
-}
-.card-body {
-  width: 450px;
-  height: 600px
+.card-body-single {  
+  height: 600px;
+  width: 400px;
+  margin-right: 100px;
 }
 
-.card-body img {
-float: right;
-}
 
 /**Shop CSS**/
+
+.card-heading {
+  font-family: 'Share', cursive;
+  font-size: 48px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.card-space{
+height: 150px;
+}
 
 .bluecard { 
     background-color: #1F8089;
@@ -305,6 +311,7 @@ float: right;
     stroke: #1F8089;
     margin: 5%;
     border-radius: 20px;
+    height: 500px;
 }
 
 .greycard {  
@@ -330,7 +337,9 @@ float: right;
 
 .card-text {
   color: #EEEEEE;
-  font-family: 'Share', cursive;
+  font-family: 'Inter', sans-serif;
+  padding: 30px;
+  font-size: 24px;
 }
 
 .super {
@@ -367,20 +376,28 @@ float: right;
   height: 450px;
 }
 
-.listTitle {
-  font-size: 24px;
-  font-family: 'Share', cursive;
-  text-align: center;
-}
-
 footer .footer-left {
   float: left;
-  text-align: left;
-  padding-left: 140px;
+  text-align: left;  
 }
 
 footer .footer-right {
   float: right;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer ul{
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+.listTitle {
+  font-size: 24px;
+  font-family: 'Share', cursive;
+  text-align: center;
 }
 
 .footer-right img {
@@ -428,8 +445,6 @@ footer .footer-right {
   background-color: #000000;    
   margin-top: 50px;
 }
-
-
 
 .footer ul {  
   color: #EEEEEE;    
